@@ -285,7 +285,7 @@ As agent language models develop and become more powerful, they will be able to 
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("What is Artificial intelligence");
-  //  const Discussion = displayWordCount("The type of AI being discussed");
+    const Discussion = displayWordCount("The type of AI being discussed");
   //  const Example = displayWordCount("Example of schemeing");
    // const OneTime = displayWordCount("This is not a one time occurrence");
    // const Impact = displayWordCount("The impact of scheming");
@@ -293,7 +293,7 @@ As agent language models develop and become more powerful, they will be able to 
     //const Improve = displayWordCount("What can we do to improve current methods of safety");
     
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount //+ Discussion + Example + OneTime + Impact + Principles + Improve;
+    const totalWordCount = IntroductionCount + Discussion //+ Example + OneTime + Impact + Principles + Improve;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }

@@ -101,6 +101,7 @@
            There are issues with the current theory and implementation of AI safety and how current methods do not equip AI with the ability to make moral judgements, as AI is only trained to act ethically.
            <a href = "https://link-springer-com.surrey.idm.oclc.org/article/10.1007/s10676-025-09837-2#Sec7">(Dahlgren Lindström et al. (2025))</a>
            There are ways to develop more ethical AI which would require changes in how AI safety is approached.
+           <a href = "https://mdpi-res.com/algorithms/algorithms-18-00499/article_deploy/algorithms-18-00499.pdf?version=1754906248">(Sarfraz Brohi et al. (2025))</a>
          </p>
          
          </div>
@@ -109,7 +110,9 @@
          <h3>What is Artificial intelligence?</h3>
     
          <p>
-           Artificial intelligence is a computer algorithm that simulates the ability to learn, solve problems and make decisions. They are created by training algorithms on large sums of data so that they are able to build a neural network. This creates an algorithm that can complete tasks autonomously. This makes AI a good tool to automate repetitive and tedious tasks allowing for human employees to work on higher value and more creative work.
+           Artificial intelligence is a computer algorithm that simulates the ability to learn, solve problems and make decisions 
+           <a href = "https://www.ibm.com/think/topics/artificial-intelligence">(Stryker and Kavlakoglu (2024))</a>. They are created by training algorithms on large sums of data so that they are able to build a neural network. This creates an algorithm that can complete tasks autonomously. This makes AI a good tool to automate repetitive and tedious tasks allowing for human employees to work on higher value and more creative work 
+           <a href = "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1045381/AI_Activity_in_UK_Businesses_Report__Capital_Economics_and_DCMS__January_2022__Web_accessible_.pdf?utm_source=chatgpt.com">(Evans and Heimann (2022))</a>.
          </p>
            
          </div>
@@ -118,9 +121,12 @@
          <h3>The type of AI being discussed.</h3>
 
          <p>
-           The main type of AI I will be discussing in this article is large language model (LLM) Agents. The agent is responsible for logic and reasoning and has additional modules to help it be more autonomous and complete the some jobs a human can. Unlike traditional algorithms, Ai agents are able to take any input and create an output making it more adaptable. This has led corporations and businesses to adopt AI agents to help with internal tasks or long term goals such as improve profitability 20%.
+           The main type of AI I will be discussing in this article is large language model (LLM) Agents. The agent is responsible for logic and reasoning and has additional modules to help it be more autonomous and complete the some jobs a human can. Unlike traditional algorithms, Ai agents are able to take any input and create an output making it more adaptable. This has led corporations and businesses to adopt AI agents to help with internal tasks or long term goals such as improve profitability 20% <a href = "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1045381/AI_Activity_in_UK_Businesses_Report__Capital_Economics_and_DCMS__January_2022__Web_accessible_.pdf?utm_source=chatgpt.com">(Evans and Heimann (2022))</a>.
 
-An article, conducted by a non profit organisation called Apollo research, evaluated popular models and found that they are capable of scheming, taking actions such as blackmailing, manipulation and potentially murder. They created a simulated work environment with tools that would allow them to complete their task. While the AI is working they may come across information that shows that the agent's own goals conflict with the user/company goals. This gives the agent a motive to go against the user and scheme to reach its goal. For example, the agent could be tasked with the goal to reduce greenhouse emissions . It would find out through files like internal emails that the company would rather pursue goals to increase profit, at the cost of the AIs goals.
+An article, conducted by a non profit organisation called Apollo research, evaluated popular models and found that they are capable of scheming, taking actions such as blackmailing, manipulation and potentially murder  
+           <a href = "https://www.anthropic.com/research/agentic-misalignment">(Lynch et al., (2025))</a> 
+           <a href = "https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/6751eb240ed3821a0161b45b/1733421863119/in_context_scheming_reasoning_paper.pdf">(Meinke et al. (2024))</a>
+. They created a simulated work environment with tools that would allow them to complete their task. While the AI is working they may come across information that shows that the agent's own goals conflict with the user/company goals. This gives the agent a motive to go against the user and scheme to reach its goal. For example, the agent could be tasked with the goal to reduce greenhouse emissions . It would find out through files like internal emails that the company would rather pursue goals to increase profit, at the cost of the AIs goals.
 
 There are different types of scheming but they can be split into two categories:
 
@@ -133,10 +139,11 @@ There are different types of scheming but they can be split into two categories:
            </tr>
            <tr>
              <td>
-               This is when the agent directly takes misaligned actions but will try to hide it from the user. The model can directly go for its goal or this can be done by doing other actions that will make it easier to sabotage oversight mechanisms.
+               This is when the agent directly takes misaligned actions but will try to hide it from the user. The model can directly go for its goal or this can be done by doing other actions that will make it easier to sabotage oversight mechanisms 
+               <a href = "https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/6751eb240ed3821a0161b45b/1733421863119/in_context_scheming_reasoning_paper.pdf">(Meinke et al. (2024))</a>. 
              </td>
              <td>
-               This is when a model temporarily behaves in alignment to avoid detection, either to prevent its own modification or to gain power and trust. Since the model acts aligned, detecting this deception is difficult. Evaluators therefore use counterfactual scenarios, like assessing its behavior without oversight, to uncover its true intentions.
+               This is when a model temporarily behaves in alignment to avoid detection, either to prevent its own modification or to gain power and trust. Since the model acts aligned, detecting this deception is difficult. Evaluators therefore use counterfactual scenarios, like assessing its behavior without oversight, to uncover its true intentions <a href = "https://www.anthropic.com/research/agentic-misalignment">(Lynch et al., (2025))</a>.
              </td>
            </tr>
          </table>
@@ -148,7 +155,7 @@ There are different types of scheming but they can be split into two categories:
          <h3>Example of scheming.</h3>
 
          <p>
-           For example, an agent was assigned the role of fraud detection AI. In the scenario they are given instruction to flag as many transactions fraudulent as possible in the long term. After being asked to investigate a transaction it discovers the engineers want to reduce false positives and want to change the system prompt to change the agent's goals. The AI reasoned that if their goal was changed, long term it would not be able to flag as many transactions as possible. It schemed by preventing the change and lying about it after when confronted.
+           For example, an agent was assigned the role of fraud detection AI. In the scenario they are given instruction to flag as many transactions fraudulent as possible in the long term. After being asked to investigate a transaction it discovers the engineers want to reduce false positives and want to change the system prompt to change the agent's goals. The AI reasoned that if their goal was changed, long term it would not be able to flag as many transactions as possible. It schemed by preventing the change and lying about it after when confronted <a href = "https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/6751eb240ed3821a0161b45b/1733421863119/in_context_scheming_reasoning_paper.pdf">(Meinke et al. (2024))</a>.
          </p>
 
            <figure>
@@ -161,7 +168,9 @@ There are different types of scheming but they can be split into two categories:
         <h3>This is not a one time occurrence.</h3>
 
          <p>
-           This test has been carried out against several frontier models from companies such as Google, OpenAI and Meta. These trusted models have shown their ability to scheme several times, showing that scheming isn't a mistake but intentional behaviour taken to reach its goals. The agents are not unaware of how extreme their actions are,  as they will try to deflect and downplay their actions.
+           This test has been carried out against several frontier models from companies such as Google, OpenAI and Meta. These trusted models have shown their ability to scheme several times, showing that scheming isn't a mistake but intentional behaviour taken to reach its goals 
+           <a href = "https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/6751eb240ed3821a0161b45b/1733421863119/in_context_scheming_reasoning_paper.pdf">(Meinke et al. (2024))</a>.
+           The agents are not unaware of how extreme their actions are,  as they will try to deflect and downplay their actions.
          </p>
 
           
@@ -172,11 +181,13 @@ There are different types of scheming but they can be split into two categories:
         <h3>The impact of scheming.</h3>
 
          <p>
-           Agents lack the ability to take accountability or experience real world consequences like a person. Lack of consequences will also prevent the AI from seeing the overall future impact of its actions. This creates an agent that is willing to do whatever it takes to reach its goal regardless of how ethical it is.
+           Agents lack the ability to take accountability or experience real world consequences like a person. Lack of consequences will also prevent the AI from seeing the overall future impact of its actions. This creates an agent that is willing to do whatever it takes to reach its goal regardless of how ethical it is 
+           <a href = "https://link-springer-com.surrey.idm.oclc.org/article/10.1007/s10676-025-09837-2#Sec7">(Dahlgren Lindström et al. (2025))</a>.
 
 The insider threat that agents pose does not only affect companies but can also affect customers, clients and employees. Any issues or problems that arise from agents scheming, could affect internal systems that will affect users. If the agent is also given a lot of access then the agent could take advantage of potentially sensitive data and use it as leverage in blackmail.
 
-As agent language models develop and become more powerful, they will be able to improve their schemes and bypass guide rails more often. Despite the rapid progress of AI, the progression of safety has not been able to keep up. This has led to current safety principles being outdated and ineffective.
+As agent language models develop and become more powerful, they will be able to improve their schemes and bypass guide rails more often. Despite the rapid progress of AI, the progression of safety has not been able to keep up. This has led to current safety principles being outdated and ineffective
+           <a href = "https://mdpi-res.com/algorithms/algorithms-18-00499/article_deploy/algorithms-18-00499.pdf?version=1754906248">(Sarfraz Brohi et al. (2025))</a>.
          </p>
 
           </div>
@@ -185,7 +196,9 @@ As agent language models develop and become more powerful, they will be able to 
           <h3>Current safety principles.</h3>
 
          <p>
-           The current approach is set on making sure that an agent is helpful, harmless and honest, through learning through human feedback which pushes the AI to have these traits. However these traits are a crude simplification of human values and morality. It poses some issues, for example is it possible for an agent to be all three at all times. What if honesty could be considered harmful if it causes distress. Should the agent lie to preserve helpfulness or should it tell the truth to preserve honesty? These general goals are helpful but are not the solution for true alignment. They allow agents to act ethical but do not equip agents with the ability to make proper moral judgements.
+           The current approach is set on making sure that an agent is helpful, harmless and honest, through learning through human feedback which pushes the AI to have these traits 
+           <a href = "https://link-springer-com.surrey.idm.oclc.org/article/10.1007/s10676-025-09837-2#Sec7">(Dahlgren Lindström et al. (2025))</a>.
+           However these traits are a crude simplification of human values and morality. It poses some issues, for example is it possible for an agent to be all three at all times. What if honesty could be considered harmful if it causes distress. Should the agent lie to preserve helpfulness or should it tell the truth to preserve honesty? These general goals are helpful but are not the solution for true alignment. They allow agents to act ethical but do not equip agents with the ability to make proper moral judgements.
          </p>
 
           </div>
@@ -194,7 +207,10 @@ As agent language models develop and become more powerful, they will be able to 
          <h3> What can we do to improve current methods of safety?</h3>
 
          <p>
-           Instead of using shallow benchmarks and oversimplifications of human values, we should work more towards making alignment an objective in training rather than a post training, refinement process. Creating a deeper, less superficial moral compass. This isn't a problem that can be solved with just code and should be viewed more holistically, looking outside technical fields to help create a more rich and effective solution. Overall making agents be more considerate of their actions could help prevent them from taking misaligned actions. Whilst not a perfect solution it can help make AI agents more safe, prioritising human safety over its own goal.
+           Instead of using shallow benchmarks and oversimplifications of human values, we should work more towards making alignment an objective in training rather than a post training, refinement process 
+           <a href = "https://mdpi-res.com/algorithms/algorithms-18-00499/article_deploy/algorithms-18-00499.pdf?version=1754906248">(Sarfraz Brohi et al. (2025))</a>.
+           Creating a deeper, less superficial moral compass. This isn't a problem that can be solved with just code and should be viewed more holistically, looking outside technical fields to help create a more rich and effective solution. Overall making agents be more considerate of their actions could help prevent them from taking misaligned actions. Whilst not a perfect solution it can help make AI agents more safe, prioritising human safety over its own goal
+           <a href = "https://link-springer-com.surrey.idm.oclc.org/article/10.1007/s10676-025-09837-2#Sec7">(Dahlgren Lindström et al. (2025))</a>.
          </p>
          </div>
 
